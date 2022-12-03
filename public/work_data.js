@@ -1,4 +1,4 @@
-import showman_image from './public/images/showman_image.png'
+import showman_image from './images/showman_image.png'
 import rocketeer_image from './images/rocketeer_image.png'
 
 const data = {
