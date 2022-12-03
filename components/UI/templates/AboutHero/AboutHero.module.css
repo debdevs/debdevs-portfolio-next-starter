@@ -1,0 +1,404 @@
+.about_hero_bg{
+
+    background: white;
+    height:1200px;
+    width:100%;
+}
+
+
+.about_header {
+    width: 100%;
+    height: 700px;
+  
+    background: linear-gradient(180deg, #FFFFFF 41.67%, #FCFFFF 100%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about_header_info_box {
+    display:flex;
+    flex-direction: column;
+ 
+    height: 100%;
+    width:100%;
+    margin:0;
+    align-items: center;
+    justify-content: center;
+    gap:25px;
+  }
+  .top_texts{
+
+    margin-top:0px;
+    width:100%;
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    gap:15px;
+  }
+  .about_header_info_box .h1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    height: 52px;
+  
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53.52px;
+    line-height: 0px;
+    margin:0;
+    color: #000000;  
+    text-align: center;
+  }
+  
+  .about_header_info_box .h2 {
+  
+ 
+    margin:0;
+    font-weight: 400;
+    font-size: 35.68px;
+    line-height: 40px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    margin-top:20px;
+  
+    line-height: 0px;
+    height:32px;
+    
+    color: #000000;  
+  }
+  
+  .about_header_info_box .h2 .span {
+    background: linear-gradient(232.56deg, #16ABFF 44.11%, #16C7FF 54.37%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;  
+  }
+  
+  .about_header_info_box .p {
+   
+        display: flex;
+        margin-top: 0px;
+        width: 70%;
+        max-width: 700px;
+        font-family: 'Libre Baskerville';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #4C6371;
+        /* height: 100%; */
+        align-items: center;
+        justify-content: center;
+   
+  
+  }
+
+
+    
+  .about_header_info_box .p_header {
+   
+    display: flex;
+    margin-top: 0px;
+    width: 30%;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+
+    text-align: center;
+    color: #4C6371;
+    /* height: 100%; */
+    align-items: center;
+    justify-content: center;
+
+
+}
+  .content_box {
+    margin-top:0px;
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .tabs_array{
+    display:flex;
+    width:95%;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+  }
+  .left_items {
+    display:flex;
+  width:100%;
+  
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  .right_items {
+    display:flex;
+    width:100%;
+  
+  
+  }
+  
+  
+  .line_div {
+    display: block;
+    width: 270px;
+ padding: .2px;
+  
+ 
+  background-color:#000000;
+  }
+  
+  
+  .right_items_content{
+  
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   margin-top:-75px;
+   margin-left:35%;
+  
+  
+  }
+  
+  .right_items_content h1{
+    margin:0px;
+    display:block;
+    font-size:20px;
+    font-family: 'Italianno';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+  
+  
+  }
+  .right_items_content h2{
+    display:block;
+    font-size:20px;
+    margin-bottom:15px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    margin-bottom:225px;
+    
+    
+  
+  
+  }
+  .image_styling_container {
+    display:block;
+    position:absolute;
+    width:25%;
+  }
+  .right_items_main_image_container{
+  
+    width: 169px;
+    height: 155px;
+  
+  position:relative;
+  right:45%;
+  top:120px;
+  }
+  .right_items_main_image_container img{
+    object-fit: cover;
+    width: 169px;
+    height: 155px;
+    
+   
+    box-shadow: 0px 0px 0px 35px rgb(255, 255, 255);
+    border-radius: 35px;
+  
+  }
+  
+  
+  .right_items_accent_image_container{
+    width: 374px;
+    height: 307px;
+    object-fit: cover;
+    border-radius: 35px;
+    }
+    .right_items_accent_image_container img{
+      object-fit: cover;
+      width:100%;
+      border-radius: 35px;
+      
+    }
+    
+  
+  .button_array {
+    display:flex;
+    width: 350px;
+    height:120px;
+    justify-content: center;
+    align-items:center;
+    gap:12px;
+  }
+  
+  .blue_button {
+    width: 93px;
+  height: 33px;
+  border:0px;
+  font-family: 'Libre Baskerville';
+  background: linear-gradient(180deg, #0094FF 0%, #11A0FF 85.42%, #7CD0FF 88.02%);
+  border-radius: 5px;
+  color:white;
+  font-size: 12px;
+  }
+  
+  .white_button {
+    width: 93px;
+    height: 33px;
+    font-family: 'Libre Baskerville';
+  border-radius: 5px;
+  background: linear-gradient(98.51deg, #A9FFCB -10.14%, rgba(179, 223, 210, 0.873494) -2.85%, rgba(255, 255, 255, 0) 47.48%);
+  padding:1.5px;
+  border:0px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  cursor:pointer;
+  }
+  
+  .white_inner_button{
+    background:white;
+    width:100%;
+   height:100%;
+   font-family: 'Libre Baskerville';
+   border-radius: 5px;
+   display:flex;
+   justify-content:center;
+  align-items:center;
+  
+  }
+
+
+
+  @media only screen and (max-width: 1024px){
+  
+    .container{
+      width:100%;
+      display:flex;
+      flex-direction:column;
+    }
+    .right_items{
+      display:none;
+    }
+    .about_header_info_box{
+      
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .about_header_info_box * { 
+
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .subheading_right{
+      display:none;
+    }
+  
+    .subheading_left{
+      width:100%;
+    }
+    .subheading_container{
+      display:flex;
+      justify-content:center;
+      align-items: center;
+    }
+  
+  }
+
+
+
+  @media only screen and (max-width: 900px){
+
+    .top_texts{
+      gap:0px;
+    }
+    .about_header_info_box  {
+
+    
+
+    }
+
+    .about_header_info_box .h1 {
+
+      font-size: 1.8rem;
+      height:42px;
+
+    }
+
+    .about_header_info_box .h2 {
+  
+ 
+     
+      font-size: 1.5rem;
+      line-height: 20px;
+      font-family: 'Libre Baskerville';
+      margin-top: 0px;
+
+    }
+    
+    .about_header_info_box .h2 .span {
+
+    }
+    
+    .about_header_info_box .p {
+     
+      width:85%;
+
+      font-size: .9rem;
+     
+    
+    }
+  
+  
+      
+    .about_header_info_box .p_header {
+     
+      width:80%;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 1.5rem;
+  
+
+  
+  
+  }
+
+  }

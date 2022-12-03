@@ -1,0 +1,208 @@
+
+
+.subheading_right_bg_overlay {
+ 
+    width:75%;
+
+    min-height: 74.5%;
+    max-height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-basis:auto;
+  
+    
+  
+    border-radius: 35px;  
+  }
+  
+  
+  
+  
+  .project_header{
+    width: 420px;
+    height: 52px;
+    
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    
+    color: #000000;
+    
+  }
+  
+  .project_overview {
+    width: 320px;
+  height: 36px;
+  
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #4C6371;
+  
+  }
+  .image_fx_container{
+    height:109px;
+    width:393px;
+    display:flex;
+    margin:25px;
+  }
+  .left_image_container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
+    width: 101px;
+    height: 109px;
+    overflow:hidden;
+    box-shadow: 0px 0px 0px 8px rgba(255,255,255,1);
+  border-radius: 8px;
+  z-index: 2;
+  }
+  
+  .left_image{
+  object-fit:cover;
+  height:100%;
+  
+  
+  }
+  .portfolio_card_container{
+    overflow:hidden;
+  }
+  .right_image_container {
+    width: 292px;
+    height: 109px;
+    overflow:hidden;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 0px 8px 8px 0px;
+ 
+  
+  }
+
+  .right_image_container > * {
+    position: relative;
+    object-fit:cover;
+    width:100%;
+    height: auto;
+    margin-top:125px;
+  }
+  .cover_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    z-index: 10;
+    border-radius: 8px ;
+    opacity: 0;
+    cursor:pointer;
+    transition: all .4s ease;
+  }
+
+  .cover_item:hover{
+    opacity: .5;
+  }
+
+  .cover_icon{
+    width: 50px;
+    height: 50px;
+    z-index: 15;
+    color: #000000;
+  }
+  .right_image{
+    position: relative;
+    object-fit:cover;
+    width:100%;
+    }
+    .paragraph_container{
+      width:100%;
+      height: 231px;
+      overflow-y:hidden;
+
+
+    }
+  .project_description{
+    margin-top:75px;
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    width:100%;
+    height:100%;
+    color: #4C6371;  
+    overflow:hidden;
+  }
+  .project_buttons{
+  
+    margin-top:15px;
+    display:flex;
+    gap:12px;
+  }
+
+  .image_wrapper {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-top:75px;
+    flex-direction: column-reverse;
+
+    text-align: center;
+    width:100%;
+    height:100%;
+    transition: all .8s ease-in-out;
+    overflow:hidden;
+  }
+
+  .github_image{
+    width:120px;
+    height:auto;
+    transition: all .8s ease-in-out;
+  }
+
+  .image_button{
+    border: 2px solid transparent;
+    background:transparent;
+    border-radius:6px;
+    position:absolute;
+    color:transparent;
+    z-index: 2;
+    cursor:pointer;
+    transition: all .8s ease-in-out;
+    font-family: 'Libre Baskerville';
+    width: 15%;
+    height:35px;
+  }
+
+
+
+  .image_wrapper:hover  .github_image{
+
+    opacity: .2;
+
+  }
+
+  .image_wrapper:hover .image_button {
+    border: 2px solid black;
+    background:black;
+    border-radius:6px;
+    position:absolute;
+    cursor:pointer;
+    color: white;
+   
+  }

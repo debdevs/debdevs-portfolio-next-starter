@@ -1,0 +1,271 @@
+.projects_hero {
+    width:100%;
+    height:560px;
+    flex-direction: row;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.hero_content {
+    width:80%;
+    height:560px;
+    margin-left:8%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:5%;
+}
+
+.left_items {
+    width:45%;
+    height:350px;
+    display:flex;
+    justify-content: flex-end;
+
+
+    max-width:850px;
+
+}
+
+
+
+.left_items_image_container {
+display:flex;
+overflow:hidden;
+
+max-width:376px;
+box-shadow: -21.4449px 21.4449px 50.038px 7.14829px rgba(82, 138, 221, 0.15);
+border-radius: 11.4373px;
+
+height: 421.75px;
+
+
+
+}
+
+.left_items_image_container img {
+    object-fit:cover;
+    width:100%;
+    height:auto;
+}
+
+
+
+
+
+.right_items {
+    width:100%;
+    height:350px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_row{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:1.5%;
+    margin-bottom: 10px;
+}
+
+.text_row>*{
+    font-size: 32px !important;
+    line-height: 125% !important;
+    height: 125% !important;
+}
+.text_layout{
+    margin-top:35px;
+}
+.text_layout h1 {
+
+
+
+
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 400;
+font-size: 41.7345px;
+line-height: 52px;
+
+color: #000000;
+    
+}
+
+.line_div {
+    background:black;
+    height:1.1px;
+    width:55%;
+}
+.text_layout h2 {
+    width: 405px;
+    height: 40px;
+    
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27.823px;
+    line-height: 35px;
+    
+    color: #000000;
+    
+}
+
+.text_row span{
+
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27.823px;
+    line-height: 35px;
+    
+    background: linear-gradient(232.56deg, #16ABFF 44.11%, #16C7FF 54.37%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    
+}
+
+.text_layout p{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 387.2px;
+    height: 51px;
+    
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.9115px;
+    line-height: 20px;
+    
+    color: #000000;
+    height:85px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+.text_layout h3{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 387.2px;
+    height: 35px;
+    
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13.9115px;
+    line-height: 12px;
+    /* identical to box height, or 83% */
+    
+    
+    color: #000000;
+     
+    
+    
+}
+
+.stack_row{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  
+    gap:10px;
+    max-width: 500px;
+}
+
+.stack_text{
+
+    height: 12px;
+   
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.9115px;
+    line-height: 12px;
+    /* identical to box height, or 83% */
+    
+    
+    color: #000000;
+     
+    
+    
+}
+.text_layout h4{
+    display: flex;
+    height: 12px;
+    
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.9115px;
+    line-height: 12px;
+    /* identical to box height, or 83% */
+    
+    
+    color: #000000;
+     
+    
+    
+}
+
+
+@media only screen and (max-width: 1024px){
+    .projects_hero{
+        height:600px;
+    }
+    .projects_hero .hero_content{
+
+        flex-direction: column;
+        margin-left: 0%;
+        padding-top: 75px;
+        gap:15%;
+ 
+
+    }
+    .left_items_image_container {
+        display:flex;
+        overflow:hidden;
+
+        
+        height: auto;
+        
+        
+        
+        }
+    .right_items >*{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .text_layout {
+
+        gap:5px;
+    
+    }
+    .right_items *{
+
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+       
+    
+    }
+    .text_layout h3{
+        width:auto;
+        display:flex;
+        justify-content: center;
+    }
+
+    .text_row{
+
+        gap:5%;
+     
+    }
+}
