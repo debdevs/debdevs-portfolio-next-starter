@@ -7,12 +7,12 @@
 
 
 module.exports = {
-    assetPrefix: '/:path*',
+    assetPrefix: '.',
     async rewrites(){
       return [
         {
-          source: `/_next/:path*`,
-          destination: '/:path*'
+          source: `https://638bc44161deba00085abd2d--profound-platypus-0f6614.netlify.app/_next/:path*`,
+          destination: 'https://638bc44161deba00085abd2d--profound-platypus-0f6614.netlify.app/static/:path*'
         }
       ]
     }
