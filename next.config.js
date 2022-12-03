@@ -7,7 +7,7 @@
 
 
 module.exports = {
-    assetPrefix: 'asd',
+    assetPrefix: '/:path*',
     async rewrites(){
       return [
         {
