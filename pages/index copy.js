@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import styles from '../styles/Home.module.css';
+
 import NavBar from '../components/UI/templates/NavBar/NavBar';
 import HomeHero from '../components/UI/templates/HomeHero/HomeHero';
 import HomeSubheading from '../components/UI/templates/HomeSubheading/HomeSubheading';
