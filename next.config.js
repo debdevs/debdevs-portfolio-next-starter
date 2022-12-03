@@ -7,7 +7,7 @@
 
 
 module.exports = {
-    assetPrefix: '.',
+    assetPrefix: '',
     async rewrites(){
       return [
         {
