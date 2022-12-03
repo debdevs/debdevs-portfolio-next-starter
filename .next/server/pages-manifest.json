@@ -1,13 +1,8 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_app copy": "pages/_app copy.js",
-  "/": "pages/index.html",
-  "/portfolio": "pages/portfolio.html",
-  "/projects": "pages/projects.html",
-  "/about": "pages/about.html",
-  "/index_export": "pages/index_export.js",
   "/_document": "pages/_document.js",
+  "/portfolio": "pages/portfolio.js",
   "/[id]": "pages/[id].js",
-  "/404": "pages/404.html"
+  "/": "pages/index.js"
 }
