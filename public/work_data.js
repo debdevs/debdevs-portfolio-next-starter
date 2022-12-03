@@ -1,5 +1,5 @@
-import showman_image from '../public/debdevs-portfolio/public/images/showman_image.png'
-import rocketeer_image from '../public/debdevs-portfolio/public/images/rocketeer_image.png'
+import showman_image from '../public/images/showman_image.png'
+import rocketeer_image from '../public/images/rocketeer_image.png'
 
 const data = {
   projects: [
