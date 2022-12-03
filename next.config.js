@@ -11,8 +11,8 @@ module.exports = {
     async rewrites(){
       return [
         {
-          source: `${"main--profound-platypus-0f6614.netlify.app"}/_next/:path*`,
-          destination: '_next/:path*'
+          source: `${"/main--profound-platypus-0f6614.netlify.app"}/_next/:path*`,
+          destination: '/_next/:path*'
         }
       ]
     }
