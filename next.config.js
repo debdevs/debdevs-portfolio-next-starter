@@ -11,8 +11,8 @@ module.exports = {
     async rewrites(){
       return [
         {
-          source: `https://638bc44161deba00085abd2d--profound-platypus-0f6614.netlify.app/_next/:path*`,
-          destination: 'https://638bc44161deba00085abd2d--profound-platypus-0f6614.netlify.app/static/:path*'
+          source: `/_next/:path*`,
+          destination: '/:path*'
         }
       ]
     }
