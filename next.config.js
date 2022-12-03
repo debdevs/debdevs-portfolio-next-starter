@@ -7,11 +7,11 @@
 
 
 module.exports = {
-    assetPrefix: BASE_PREFIX_FOR_APP,
+    assetPrefix: '.',
     async rewrites(){
       return [
         {
-          source: `${BASE_PREFIX_FOR_APP}/_next/:path*`,
+          source: `./_next/:path*`,
           destination: '_next/:path*'
         }
       ]
