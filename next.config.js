@@ -7,13 +7,13 @@
 
 
 module.exports = {
-    async redirects() {
+    assetPrefix: BASE_PREFIX_FOR_APP,
+    async rewrites(){
       return [
         {
-          source: '/_next/',
-          destination: '/:',
-          permanent: false,
-        },
+          source: `${BASE_PREFIX_FOR_APP}/_next/:path*`,
+          destination: '_next/:path*'
+        }
       ]
-    },
+    }
   }
