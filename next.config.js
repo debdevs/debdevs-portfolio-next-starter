@@ -7,12 +7,12 @@
 
 
 module.exports = {
-    assetPrefix: 'main--profound-platypus-0f6614.netlify.app',
+    assetPrefix: '.',
     async rewrites(){
       return [
         {
-          source: `${"/main--profound-platypus-0f6614.netlify.app"}/_next/:path*`,
-          destination: '/_next/:path*'
+          source: `/_next/:path*`,
+          destination: '/:path*'
         }
       ]
     }
