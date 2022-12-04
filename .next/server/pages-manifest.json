@@ -1,12 +1,12 @@
 {
   "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
   "/about": "pages/about.html",
   "/": "pages/index.html",
   "/portfolio": "pages/portfolio.html",
   "/projects": "pages/projects.html",
-  "/index_export": "pages/index_export.js",
   "/[id]": "pages/[id].js",
-  "/_error": "pages/_error.js",
+  "/index_export": "pages/index_export.js",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"
 }
