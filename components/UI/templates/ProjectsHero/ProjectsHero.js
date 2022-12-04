@@ -29,7 +29,7 @@ const ProjectsHero = ({projectId = 0}) => {
          
             <div className={styles.text_layout}>
             
-              <h1>{data.projects[projectId].name}</h1>
+              <h1 className={styles.text_layout_header}>{data.projects[projectId].name}</h1>
            
                 
               {tagline.split(" ").length > 2 ? 
