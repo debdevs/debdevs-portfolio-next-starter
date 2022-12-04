@@ -2,6 +2,7 @@
   "name": "next-netlify-starter",
   "version": "0.5.0",
   "private": true,
+  "homepage": ".",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
