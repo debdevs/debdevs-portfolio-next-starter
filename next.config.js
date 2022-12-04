@@ -7,14 +7,5 @@
 
 
 module.exports = {
-    assetPrefix: './',
-    async rewrites(){
-      return [
-        {
-          
-          source: `/_next/:path*`,
-          destination: '/:path*'
-        }
-      ]
-    }
-  }
+  output: 'standalone',
+}
