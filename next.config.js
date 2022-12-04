@@ -11,7 +11,7 @@ module.exports = {
     async rewrites(){
       return [
         {
-          assetPrefix:'./',
+          
           source: `/_next/:path*`,
           destination: '/:path*'
         }
