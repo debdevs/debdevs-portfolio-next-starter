@@ -96,6 +96,7 @@ transition: all .4s ease;
   height:auto;
   padding-bottom:7px;
   transition:all .4s ease-in-out;
+  color:black;
 
 }
     

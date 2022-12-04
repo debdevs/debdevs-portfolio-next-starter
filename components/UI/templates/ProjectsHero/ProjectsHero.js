@@ -34,13 +34,13 @@ const ProjectsHero = ({projectId = 0}) => {
                 
               {tagline.split(" ").length > 2 ? 
               <div className={styles.text_row}>
-                <h1>{tagline.split(" ")[0]}</h1>
+                <h1  className={styles.text_layout_header}>{tagline.split(" ")[0]}</h1>
                 <span><AnimatedTextWord text={tagline.split(" ").splice(-2).join(" ")}/></span>
                 
                 </div>
               : 
               <div className={styles.text_row}>
-              <h1>{tagline.split(" ")[0]}</h1>
+              <h1  className={styles.text_layout_header}>{tagline.split(" ")[0]}</h1>
               <span><AnimatedTextWord text={tagline.split(" ").splice(-1).join(" ")}/></span>
           
               </div>
