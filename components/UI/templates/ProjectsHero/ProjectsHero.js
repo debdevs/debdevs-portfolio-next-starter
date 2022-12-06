@@ -66,8 +66,7 @@ const ProjectsHero = ({projectId = 0}) => {
                </div>
 
             ))}</div>
-              <h5>React • Django • AWS • Blender</h5>
-              <tech_array></tech_array>
+
               <LandingTabs />
             </div>
           </div>

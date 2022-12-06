@@ -133,7 +133,7 @@ table {
 
 
 
-
+--main-transition: all .4s ease;
 
   --max-button-width: 93px;
   --button-width: 97.0480104615px;
@@ -152,7 +152,7 @@ table {
  --button-color-2: #11A0FF;
  --button-color-3: #7CD0FF;
 
-
+ --main-border-radius: 15px
 }
 @media only screen and (max-width: 1024px){
 :root{
